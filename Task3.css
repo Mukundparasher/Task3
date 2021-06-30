@@ -1,0 +1,268 @@
+form{
+  padding-left: 500px;
+}
+
+.hello{
+  padding-left: 100px;
+}
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+.first{
+  background-color: white ;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.second{
+  background-color:#f1f1f1 ;
+  width: 1200px;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.container-fluid{
+  background-color: #053742;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+label{
+  height: 40px;
+}
+.container-first{
+  height: 40px;
+  margin-left: 37px;
+}
+
+.container{
+  font-size: 20px;
+}
+.container-second{
+  font-size: 20px;
+  display: block;
+  margin-top: 0;
+  height: 40px;
+  margin-left: 0;
+}
+.container-third{
+  font-size: 20px;
+  display: block;
+  height: 40px;
+  margin-left: 51px;
+}
+.container-fourth{
+  position: relative;
+  font-size: 20px;
+  height: 40px;
+  margin-right: 85px;
+}
+.container-first-second{
+  height: 40px;
+  margin-right: 47px;
+}
+.container-second-second{
+  height: 40px;
+  margin-right: 65px;
+}
+.container-third-second{
+  height: 40px;
+  margin-right: 75px;
+}
+.container-fourth-second{
+  height: 40px;
+  margin-right: 70px;
+}
+.container-first-third{
+  height: 40px;
+  margin-right: 38px;
+}
+.container-second-third{
+  height: 40px;
+  margin-right: 44px;
+}
+.container-third-third{
+  height: 40px;
+  margin-right: 29px;
+}
+.container-fourth-third{
+  height: 40px;
+  margin-right: 84px;
+}
+.container-first-fourth{
+  height: 40px;
+  margin-right: 44px;
+}
+.container-second-fourth{
+  height: 40px;
+    margin-right: 54px;
+}
+.container-third-fourth{
+  height: 40px;
+    margin-right: 83px;
+}
+.container-fourth-fourth{
+  height: 40px;
+    margin-right: 34px;
+}
+.container-fifth-fourth{
+  height: 40px;
+    margin-right: 76px;
+}
+.container-sixth-fourth{
+  height: 40px;
+    margin-right: 41px;
+}
+.container-seventh-fourth{
+  height: 40px;
+    margin-left: 40px;
+}
+.container-first-fifth{
+  height: 40px;
+  margin-right: 55px;
+}
+.container-second-fifth{
+  height: 40px;
+  margin-right: 40px;
+}
+.container-third-fifth{
+  height: 40px;
+  margin-right: 38px;
+}
+.container-fourth-fifth{
+  height: 40px;
+  margin-right: 47px;
+}
+.container-fifth-fifth{
+  height: 40px;
+  margin-right: 60px;
+}
+.container-first-sixth{
+  height: 40px;
+  margin-right: 31px;
+}
+.container-second-sixth{
+  height: 40px;
+  margin-right: 50px;
+}
+.container-third-sixth{
+  height: 40px;
+  margin-right: 60px;
+}
+.container-fourth-sixth{
+  height: 40px;
+  margin-right: 1px;
+}
+
+.container-fifth-sixth{
+  height: 40px;
+  margin-right: 0;
+}
+.prob{
+  height: 10px;;
+  float: left;
+  display: block;
+}
+.prob1{
+  height: 10px;;
+  float: left;
+}
+.para{
+  font-size: 15px;;
+  color: black;
+  height: 10px;;
+  float: left;
+
+  
+}
+img{
+  height: 300px;
+  width: 350px;
+  position: relative;
+}
+.img-second{
+  position: relative;
+  height: 300px;
+  width: 600px;
+}
+p{
+  font-size: 15px;
+  color: blue;
+}
+
+.col-lg-4 col-sm-12{
+  position: relative;
+        display: inline-block;
+}
+.text{
+  position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%;
+        color: white;
+}
+.chineese{
+  background-color: black;
+  opacity: 80%;
+}
+.img-second1{
+  position: relative;
+  height: 500px;
+  width: 400px;
+}
+.text1{
+  position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 70%;
+        right: 0;
+        top: 10%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%;
+        color: white;
+}
+.chineese1{
+  background-color: red;
+  width: 20%;
+  opacity: 80%;
+}
+.danger{
+  padding-left: 350px;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .second{
+    width: 100%;
+  }
+  .flex-container{
+    width: 100%;
+  }
+  .first {
+    display: none;
+  }
+  img{
+    width: 100%;
+  }
+  .img-second1{
+    width: 100%;
+  }
+  .container-fluid{
+    text-align: center;
+  }
+  .col-lg-5 col-sm-12{
+    text-align: left;
+  }
+
+}

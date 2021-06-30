@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Task 4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Task3.css">
+
+</head>
+
+<body>
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand hello" href="#">IETEBITS</a>
+    <a class="navbar-brand my" href="#">Food-Management</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </li>
+
+
+    </div>
+  </nav>
+  <div class="flex-container">
+    <div class="first">
+      <hr style="height:2px;margin-left: 40px;margin-right: 40px;color:gray;background-color:#f1f1f1">
+      <h6 style="color:red">Dietary Restrictions</h6>
+      <div class="container-first">
+        <label class="container">
+          <input type="radio" checked="checked" name="radio" value="any-value">
+          <span class="checkmark"></span>Vegetarian-Friendly
+        </label>
+      </div>
+      <div class="container-second">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Vegan-Options
+        </label>
+      </div>
+      <div class="container-third">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Glutten Free Options
+        </label>
+      </div>
+      <div class="container-fourth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Hatal
+        </label>
+      </div>
+      <br>
+      <div class="second-menu">
+        <hr style="height:10px;color:gray;background-color:#f1f1f1">
+        <h4 style="color:red">Meals</h4>
+        <div class="container-first-second">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Breakfast
+          </label>
+        </div>
+        <div class="container-second-second">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Brunch
+          </label>
+        </div>
+        <div class="container-third-second">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Lunch
+          </label>
+        </div>
+        <div class="container-fourth-second">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Dinner
+          </label>
+        </div>
+      </div>
+      <br>
+      <div class="third-menu">
+        <hr style="height:10px;color:gray;background-color:#f1f1f1">
+        <h2 style="color:red">Price</h2>
+        <hr style="height:5px;color:gray;background-color:#f1f1f1">
+        <div class="container-first-third">
+          <label class="container">
+            <input type="radio" checked="checked" name="radio" value="any-value">
+            <span class="checkmark"></span>cheap-eats
+          </label>
+        </div>
+        <div class="container-second-third">
+          <label class="container">
+            <input type="radio" name="radio" value="any-value">
+            <span class="checkmark"></span>mid-range
+          </label>
+        </div>
+        <div class="container-third-third">
+          <label class="container">
+            <input type="radio" name="radio" value="any-value">
+            <span class="checkmark"></span>fine-dinning
+          </label>
+        </div>
+        <div class="container-fourth-third">
+          <label class="container">
+            <input type="radio" name="radio" value="any-value">
+            <span class="checkmark"></span>luxury
+          </label>
+        </div>
+      </div>
+      <br>
+      <div class="fourth-menu">
+        <hr style="height:10px;color:gray;background-color:#f1f1f1">
+        <h1 style="color:red">Estabilishment</h1>
+        <h2 style="color:red">Type</h2>
+        <div class="container-first-fourth">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Restaurants
+          </label>
+        </div>
+        <div class="container-second-fourth">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Quickbites
+          </label>
+        </div>
+        <div class="container-third-fourth">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Dessert
+          </label>
+        </div>
+        <div class="container-fourth-fourth">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Coffee & Tea
+          </label>
+        </div>
+        <div class="container-fifth-fourth">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Bakeries
+          </label>
+        </div>
+        <div class="container-sixth-fourth">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>Bars & Pubs
+          </label>
+        </div>
+        <div class="container-seventh-fourth">
+          <label class="container">
+            <input type="checkbox" name="name" value="any_value">
+            <span class="checkmark"></span>specially food market
+          </label>
+        </div>
+      </div>
+      <br>
+      <hr style="height:10px;color:gray;background-color:#f1f1f1">
+      <h5 style="color:black">Cusines & dishes</h5>
+      <div class="container-first-fifth">
+        <label class="container">
+          <input type="radio" checked="checked" name="radio" value="any-value">
+          <span class="checkmark"></span>Indians
+        </label>
+      </div>
+      <div class="container-second-fifth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Chineese
+        </label>
+      </div>
+      <div class="container-third-fifth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>fast-food
+        </label>
+      </div>
+      <div class="container-fourth-fifth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Mughlai
+        </label>
+      </div>
+      <div class="container-fifth-fifth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Biryani
+        </label>
+
+      </div>
+      <br>
+      <hr style="height:10px;color:gray;background-color:#f1f1f1">
+      <h2 style="color:red">Features</h2>
+      <div class="container-first-sixth">
+        <label class="container">
+          <input type="radio" checked="checked" name="radio" value="any-value">
+          <span class="checkmark"></span>Credit Card
+        </label>
+      </div>
+      <div class="container-second-sixth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Free-Wifi
+        </label>
+      </div>
+      <div class="container-third-sixth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Delivery
+        </label>
+      </div>
+      <div class="container-fourth-sixth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Serves Alcohol
+        </label>
+      </div>
+      <div class="container-fifth-sixth">
+        <label class="container">
+          <input type="radio" name="radio" value="any-value">
+          <span class="checkmark"></span>Private Dinning
+        </label>
+
+      </div>
+    </div>
+
+    <div class="second">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <img src="1.jpg" alt="">
+            <div class="text">
+                <h2 class="chineese">Chinese</h2>
+            </div>
+
+
+
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <img src="2.jpg" alt="">
+            <div class="text">
+              <h2 class="chineese">Italian</h2>
+            </div>
+
+
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <img src="3.jpg" alt="">
+            <div class="text">
+              <h2 class="chineese">Sea-food</h2>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <img class="img-second" src="6.jpg" alt="">
+            <div class="text">
+              <h2 class="chineese">Indian</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+
+            <img class="img-second" src="7.jpg" alt="">
+            <div class="text">
+              <h2 class="chineese">Japannese</h2>
+            </div>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <img class="img-second1" src="1.jpg" alt="">
+            <div class="text1">
+              <h2 class="chineese1">#3.6</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="prob">Thyme Foods</h2>
+              <br>
+              <p class="prob1">North Indian,Chineese,Mughlai,Biryani</p>
+              <br>
+              <p class="para">INR 50-600/ 9:30 am - 10pm</p>
+              <br>
+              <p class="para"><strong>Meals :</strong>Drinks,Dinner,After-Hours</p>
+              <br>
+              <p class="para"><strong>Features :</strong>Drinks,Dinner,After-Hours</p>
+              <section class="danger">
+                <button type="button" class="btn btn-outline-danger">Read More</button>
+              </section>
+
+
+
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <img class="img-second1" src="1.jpg" alt="">
+            <div class="text1">
+              <h2 class="chineese1">#3.6</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="prob">Thyme Foods</h2>
+              <br>
+              <p class="prob1">North Indian,Chineese,Mughlai,Biryani</p>
+              <br>
+              <p class="para">INR 50-600/ 9:30 am - 10pm</p>
+              <br>
+              <p class="para"><strong>Meals :</strong>Drinks,Dinner,After-Hours</p>
+              <br>
+              <p class="para"><strong>Features :</strong>Drinks,Dinner,After-Hours</p>
+              <section class="danger">
+                <button type="button" class="btn btn-outline-danger">Read More</button>
+              </section>
+
+
+          </div>
+
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <img class="img-second1" src="1.jpg" alt="">
+            <div class="text1">
+              <h2 class="chineese1">#3.6</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="prob">Thyme Foods</h2>
+              <br>
+              <p class="prob1">North Indian,Chineese,Mughlai,Biryani</p>
+              <br>
+              <p class="para">INR 50-600/ 9:30 am - 10pm</p>
+              <br>
+              <p class="para"><strong>Meals :</strong>Drinks,Dinner,After-Hours</p>
+              <br>
+              <p class="para"><strong>Features :</strong>Drinks,Dinner,After-Hours</p>
+              <section class="danger">
+                <button type="button" class="btn btn-outline-danger">Read More</button>
+              </section>
+
+
+          </div>
+
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <img class="img-second1" src="1.jpg" alt="">
+            <div class="text1">
+              <h2 class="chineese1">#3.6</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="prob">Thyme Foods</h2>
+              <br>
+              <p class="prob1">North Indian,Chineese,Mughlai,Biryani</p>
+              <br>
+              <p class="para">INR 50-600/ 9:30 am - 10pm</p>
+              <br>
+              <p class="para"><strong>Meals :</strong>Drinks,Dinner,After-Hours</p>
+              <br>
+              <p class="para"><strong>Features :</strong>Drinks,Dinner,After-Hours</p>
+              <section class="danger">
+                <button type="button" class="btn btn-outline-danger">Read More</button>
+              </section>
+
+
+          </div>
+
+        </div>
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div style="padding-top:20px;"class="row">
+      <div class="col-lg-5 col-sm-12">
+        <h4 style="color:white;margin-left:90px;padding-top:20px;">Connect with us</h4>
+        <img  style="width:30px;height:30px;margin-left:105px;" src="12.png" alt="">
+        <img  style="width:30px;height:30px;" src="4.jpg" alt="">
+        <img style="width:30px;height:30px;" src="5.jpg" alt="">
+        <img style="width:30px;height:30px;" src="11.png" alt="">
+      </div>
+      <div class="col-lg-5 col-sm-12">
+        <img style="width:200px;height:100px;" src="21.jpeg" alt="">
+
+        <h6 style="color:white;;">@copyright Holiday pvtLTD-All rights reserved</h6>
+      </div>
+      <div style="color:white" class="col-lg-2 col-sm-12">
+        <h4>write for us</h4>
+        <h4>Privacy Policy</h4>
+        <h4>Terms and Conditions</h4>
+
+      </div>
+  </div>
+  </div>
+
+
+
+</body>
+
+</html>
